@@ -10,6 +10,6 @@ use to_csv to generate out the csv file with no index (index=false)
 
 if the file is large, please add encoding to the code.
 
-  import sys
-  reload(sys)
-  sys.setdefaultencoding('utf8')
+  import sys;
+  reload(sys);
+  sys.setdefaultencoding('utf8');
