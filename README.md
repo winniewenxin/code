@@ -1,3 +1,5 @@
+# Input xlsx and select specified rows and columns to export csv
+
 use python and library pandas to restructure a messy xlsx,sheet 2 except row 1, drop row 3 which is a filter applied
 
 read through all the rows (index) to find the column with the name specified.
@@ -8,6 +10,6 @@ use to_csv to generate out the csv file with no index (index=false)
 
 if the file is large, please add encoding to the code.
 
-  # import sys
-  # reload(sys)
-  # sys.setdefaultencoding('utf8')
+  import sys
+  reload(sys)
+  sys.setdefaultencoding('utf8')
